@@ -3,7 +3,8 @@
 class model
 {
     public function index(){
-        return view('all.index');
+        $var = "aaa";
+        return view('all.index',$var);
     }
 
 
